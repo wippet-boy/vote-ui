@@ -12,7 +12,7 @@ app.controller('statsCtrl', function($scope, $http, $interval){
       $scope.aPercent = r.a;
       $scope.bPercent = r.b;
     }, function(response) {
-      console.log("error ", response)
+      console.log("error: ", response)
     });
   }, 3000)
 });
